@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar-nav {
+    margin-left: 30px;
+}
+
+.navbar-nav > li > a:hover {
+    font-weight: 300;
+    text-decoration: underline !important;
+}

@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="col-sm-4">
+		<div class="chart-wrapper">
+			<div class="chart-title">
+				Servers
+			</div>
+			<div class="chart-stage">
+				<ul class="list-group">
+				    <li class="list-group-item"><i class="fa fa-server" aria-hidden="true"></i> ARC1</li>
+						<li class="list-group-item"><i class="fa fa-server" aria-hidden="true"></i> ARC2</li>
+				</ul>
+			</div>
+			<div class="chart-notes">
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="chart-wrapper">
+			<div class="chart-title">
+				Pageviews by browser (past 24 hours)
+			</div>
+			<div class="chart-stage">
+				<canvas id="myChart"></canvas>
+			</div>
+			<div class="chart-notes">
+				This is a sample text region to describe this chart.
+			</div>
+		</div>
+	</div>
+
+</div>
