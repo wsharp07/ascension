@@ -1,5 +1,7 @@
 # Ascension
 
+[![Build Status](https://travis-ci.org/wsharp07/ascension.svg?branch=master)](https://travis-ci.org/wsharp07/ascension)
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
