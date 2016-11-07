@@ -18,3 +18,5 @@ config :ascension, Ascension.Repo,
   hostname: System.get_env("ASCENSION_DB_HOST") || "192.168.99.100",
   port: System.get_env("ASCENSION_DB_PORT") || 32768,
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :ascension, :ascension_service, AscensionService.Mock

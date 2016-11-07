@@ -6,8 +6,12 @@
 			</div>
 			<div class="chart-stage">
 				<ul class="list-group">
-				    <li class="list-group-item"><i class="fa fa-server" aria-hidden="true"></i> ARC1</li>
-					<li class="list-group-item"><i class="fa fa-server" aria-hidden="true"></i> ARC2</li>
+					<%= for server <- get_servers do %>
+						<li class="list-group-item">
+							<i class="fa fa-server" aria-hidden="true"></i> 
+							<%= server["name"] %>
+						</li>
+					<% end %>
 				</ul>
 			</div>
 			<div class="chart-notes">
