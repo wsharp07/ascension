@@ -1,5 +1,6 @@
 defmodule Ascension.PageControllerTest do
   use Ascension.ConnCase
+  use ExUnit.Case
 
   test "GET /", %{conn: conn} do
     conn = get conn, "/"

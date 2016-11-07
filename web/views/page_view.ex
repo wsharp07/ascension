@@ -1,10 +1,8 @@
 defmodule Ascension.PageView do
   use Ascension.Web, :view
+  alias Ascension.ServerRepo
 
   defp get_servers() do
-    AscensionService.start
-
-    AscensionService.get!("/api/servers").body[:data] 
-    |> Enum.map(fn(x) -> Map.get(x,"attributes") end)
+    ServerRepo.get_all
   end
 end

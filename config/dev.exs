@@ -42,3 +42,5 @@ config :ascension, Ascension.Repo,
   hostname: "192.168.99.100",
   port: 32768,
   pool_size: 10
+
+config :ascension, :ascension_service, AscensionService.HttpClient
